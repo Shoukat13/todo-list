@@ -6,13 +6,15 @@
 	</head>
 	<body>
 		<div class = "todo-container">
-		<h1>To Do List</h1>
-		<div class = "addDiv">
-			<textarea id = "todoInput" rows="2" cols="25" maxlength="150" placeholder="Enter your todo here"></textarea>
-			<button id = "addBtn" type= "submit"> Add </button>	
+			<h1>To Do List</h1>
+			<div class = "addDiv">
+				<textarea id = "todoInput" rows="2" cols="25" maxlength="150" placeholder="Enter your todo here"></textarea>
+				<button id = "addBtn" type= "submit"> Add </button>	
+			</div>
+			<div class="tasks-container">
+				<ul id="todoList"></ul>
+			</div>
 		</div>
-		<ul id="todoList"></ul>
-	</div>
-	 <script src="todo.js"></script>
+	 	<script src="todo.js"></script>
 	</body>
 </html>
